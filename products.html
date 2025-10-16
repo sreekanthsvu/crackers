@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Diwali Crackers Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Diwali Crackers</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products" class="active">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-hero">
+            <h1>Our Premium Diwali Crackers Collection</h1>
+            <p>Browse our wide range of Sivakasi crackers for a spectacular Diwali celebration</p>
+        </section>
+
+        <section class="products">
+            <div class="product-filters">
+                <label for="category">Filter by Category:</label>
+                <select id="category">
+                    <option value="all">All Products</option>
+                    <option value="sparklers">Sparklers</option>
+                    <option value="rockets">Rockets</option>
+                    <option value="fountains">Fountains</option>
+                    <option value="flower-pots">Flower Pots</option>
+                    <option value="bijili">Bijili</option>
+                    <option value="bombs">Bombs</option>
+                </select>
+            </div>
+
+            <div class="product-grid">
+
+                <div class="product-card" data-category="sparklers">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/2520193853/display_1500/stock-photo-beautiful-glowing-sparklers-on-colored-dark-background-colorful-sparklers-sparkling-against-2520193853.jpg" alt="Color Sparkler">
+                    <h3>Color Sparkler (10 pcs)</h3>
+                    <p>Multi-colored sparklers for vibrant displays</p>
+                    <p class="price">₹200 per pack</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="rockets">
+                    <img src="https://thumbs.dreamstime.com/b/fireworks-rocket-7161642.jpg?w=768" alt="Sky Rocket">
+                    <h3>Sky Rocket (5 pcs)</h3>
+                    <p>High-flying rockets with colorful bursts</p>
+                    <p class="price">₹300 per box</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="fountains">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyuvp19eMt0xiWA_cw7yI4svG8wOBtSYRzgA&s" alt="Color Fountain">
+                    <h3>Color Fountain (1 pc)</h3>
+                    <p>Ground fountain with multiple color effects</p>
+                    <p class="price">₹250 per piece</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="fountains">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnlFGOlRuTm_LVEqYpF2BgTpdZPToZdm3_SA&s" alt="Niagara Falls">
+                    <h3>Niagara Falls (1 pc)</h3>
+                    <p>Spectacular waterfall effect fountain</p>
+                    <p class="price">₹400 per piece</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="rockets">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjfQaZtoa9tzQVZ7LStjlpIhLm5fN2lcm6Kw&s" alt="Whistle Rocket" style="height: 180px;">
+                    <h3>Whistle Rocket (5 pcs)</h3>
+                    <p>Rockets that whistle as they ascend</p>
+                    <p class="price">₹350 per box</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="flower-pots">
+                    <img src="https://www.shutterstock.com/image-photo/two-flower-pot-cracker-anar-260nw-2216883909.jpg" alt="Flower Pot">
+                    <h3>Flower Pot (10 pcs)</h3>
+                    <p>Ground crackers that bloom like flowers</p>
+                    <p class="price">₹500 per pack</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+
+                <div class="product-card" data-category="bijili">
+                    <img src="https://media.gettyimages.com/id/1411414942/photo/long-exposure-shot-of-man-enjoying-lit-sparkler-on-diwali-night.jpg?s=612x612&w=gi&k=20&c=soUCE1yCrgzuj6wiPPACXRy3hUs2vuhCoeVTPikxOhw=" alt="Bijili Crackers">
+                    <h3>Bijili Crackers (100 pcs)</h3>
+                    <p>Small but loud crackers for fun</p>
+                    <p class="price">₹100 per pack</p>
+                    <div class="quantity-add">
+                    <div class="quantity-selector">
+                        <button class="qty-btn minus" data-action="minus">-</button>
+                        <input type="number" value="0" min="0" class="qty-input" readonly>
+                        <button class="qty-btn plus" data-action="plus">+</button>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Diwali Crackers Online. All rights reserved.</p>
+        <p>Contact: info@diwalicrackers.com | Phone: +91-12345-67890</p>
+        <p>WhatsApp: <a href="https://wa.me/911234567890" target="_blank">Chat with us</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
